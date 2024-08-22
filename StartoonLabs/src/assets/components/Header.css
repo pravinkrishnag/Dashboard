@@ -1,0 +1,44 @@
+/* Header.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e5ee4;
+    padding: 10px;
+  }
+  
+  #nav-begin, #nav-end {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-begin li, #nav-end li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  #nav-begin button, #nav-end button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5e5ee4;
+  }
+  
+  #nav-begin button:hover, #nav-end button:hover {
+    background-color: #ddd;
+  }
+  
+  #nav-end input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #nav-end button {
+    margin-left: 10px;
+  }
+  

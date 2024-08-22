@@ -1,0 +1,39 @@
+
+#email{
+    margin-top: 15px;
+}
+#password{
+    margin-top: 15px;
+}
+#buttons{
+    margin-top: 15px;
+}
+#forms{
+    
+    height: 250px;
+    width: 350px;
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 5px;
+    margin-top: 125px;
+}
+
+#submit{
+    background-color: chartreuse;
+    height: 35px;
+    width: 100px;
+}
+#signUp{
+    background-color: red;
+    margin-left: 10px;
+    height: 35px;
+    width: 100px;
+}
+#main {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#logo{
+    margin-left: 350px;
+}
